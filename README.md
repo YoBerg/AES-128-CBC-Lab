@@ -10,9 +10,19 @@ You will write the CBC and padding logic in `aes_cbc_lab.py`. The AES primitive 
 
 ## Setup
 
+### PowerShell (Windows)
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+### Bash (macOS/Linux)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
